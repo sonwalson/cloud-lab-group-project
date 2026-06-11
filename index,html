@@ -10,7 +10,7 @@
 
     <nav class="navbar">
         <div class="nav-container">
-            <span class="logo">Cloud Lab 1</span>
+            <span class="logo">Apex Tech</span>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -29,9 +29,11 @@
         <section class="content-section">
             <h2>Project Overview</h2>
             <p>Welcome to our static website project. This platform was built as part of our core laboratory assessment to demonstrate public repository configuration, collaborative version control management, and structured file deployment.</p>
-            
+            <p>This project is a collaborative static website developed to demonstrate fundamental web development skills and team version control. Built using HTML5, CSS3, and JavaScript, the site features a responsive layout, multi-page navigation, and structured styling. The project highlights smooth team collaboration through GitHub, modeling real-world repository management and static site deployment workflows."</p>
+
+
             <div class="image-wrapper">
-                <img src="image.jpg" alt="Project Illustration" class="project-img">
+              <img src="images/image.jpg" alt="Project Illustration" class="project-img">
             </div>
         </section>
     </main>
