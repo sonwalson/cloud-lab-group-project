@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Cloud Lab Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">Cloud Lab 1</span>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌗 Mode</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>Our Team Profile</h2>
+            <p>This project was successfully executed by three active group members, with duties divided dynamically across design, repository management, and coordination branches.</p>
+            
+            <table class="team-table">
+                <thead>
+                    <tr>
+                        <th>Member Name</th>
+                        <th>Assigned Project Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>[Insert Leader Name]</strong></td>
+                        <td>Group Leader / Submitter</td>
+                    </tr>
+                    <tr>
+                        <td><strong>[Insert Your Name]</strong></td>
+                        <td>GitHub Repository Manager / Tech Coordinator</td>
+                    </tr>
+                    <tr>
+                        <td><strong>[Insert Designer Name]</strong></td>
+                        <td>Design & Content Specialist</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cloud Lab Group Project. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
