@@ -29,7 +29,7 @@
         <section class="content-section">
             <h2>Project Overview</h2>
             <p>Welcome to our static website project. This platform was built as part of our core laboratory assessment to demonstrate public repository configuration, collaborative version control management, and structured file deployment.</p>
-            <p>This project is a collaborative static website developed to demonstrate fundamental web development skills and team version control. Built using HTML5, CSS3, and JavaScript, the site features a responsive layout, multi-page navigation, and structured styling. The project highlights smooth team collaboration through GitHub, modeling real-world repository management and static site deployment workflows.</p>
+            <p>This project is a collaborative static website developed to demonstrate fundamental web development skills and team version control. Built using HTML5, CSS3, and JavaScript, the site features a responsive layout, multi-page navigation, and structured styling.</p>
 
             <div class="image-wrapper">
               <img src="images/image.jpg" alt="Project Illustration" class="project-img">
