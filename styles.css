@@ -1,0 +1,166 @@
+/* Core Layout Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode Variants */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #1f2937;
+    color: #fff;
+    padding: 15px 0;
+}
+
+body.dark-mode .navbar {
+    background: #000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.nav-links a.active, .nav-links a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+#theme-toggle {
+    background: #374151;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Base Content Layout */
+.content-section {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+body.dark-mode .content-section {
+    background: #1e1e1e;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.content-section h2 {
+    margin-bottom: 15px;
+    color: #1f2937;
+}
+
+body.dark-mode .content-section h2 {
+    color: #fff;
+}
+
+.image-wrapper {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Table Design */
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.team-table th, .team-table td {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    text-align: left;
+}
+
+body.dark-mode .team-table th, body.dark-mode .team-table td {
+    border-color: #333;
+}
+
+.team-table th {
+    background-color: #f8fafc;
+}
+
+body.dark-mode .team-table th {
+    background-color: #2d2d2d;
+}
+
+.contact-card {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8fafc;
+    border-left: 4px solid #3b82f6;
+}
+
+body.dark-mode .contact-card {
+    background: #2d2d2d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-top: 60px;
+}
