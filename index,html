@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Cloud Lab Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">Cloud Lab 1</span>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌗 Mode</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Cloud Computing Practical Lab 1</h1>
+        <p>Static Website Deployment & GitHub Collaboration Project</p>
+    </header>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>Project Overview</h2>
+            <p>Welcome to our static website project. This platform was built as part of our core laboratory assessment to demonstrate public repository configuration, collaborative version control management, and structured file deployment.</p>
+            
+            <div class="image-wrapper">
+                <img src="image.jpg" alt="Project Illustration" class="project-img">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cloud Lab Group Project. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
