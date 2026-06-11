@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Cloud Lab Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <span class="logo">Cloud Lab 1</span>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button id="theme-toggle">🌗 Mode</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>Contact Assignment Registry</h2>
+            <p>For inquiries regarding this laboratory submission, please reach out via the official campus department channels.</p>
+            <div class="contact-card">
+                <p><strong>Course Title:</strong> Cloud Computing Practical Lab 1</p>
+                <p><strong>Submission Target:</strong> Faculty Evaluation Panel</p>
+                <p><strong>Group Status:</strong> 3 Active Contributors Registered</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cloud Lab Group Project. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
